@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top img{
+    width: 200px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;   
+    font-size: 1.5em;
+}
+ul a {
+    text-decoration: none;
+}
+
+.reseaux a{
+      font-size: 30px;
+      color: black;
+      
+        
+}
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+}
+
+
+
+.baniere img{
+    width: 100%;
+    border: 2px solid;
+}
+
+/****************************************Corp************************************************/
+
+#corp{
+    display: flex;
+    flex-direction: row;
+    
+    background-image: radial-gradient(circle ,rgb(139,195,245) ,rgb(70,130,180));
+}
+
+#left_body{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#left_body h1{
+    font-size: 3em;
+}
+
+#left_body p{
+    font-size: 2em;
+}
+
+.contact{
+   width: 130px;
+   height: 38px;
+   background-color: black;
+   color: white;
+   border-color: white;
+   border: solid;
+   border-width: 1px;
+   margin-top: 10px;
+   
+
+}
+
+#right_body{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+#right_body img{
+    width: 700px;
+    
+    
+    
+}
+
+
+
+footer{
+    background-color: rgb(211,211,211);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    
+}
+
+#newsletter{
+
+    display: flex;
+    flex-direction: column; 
+    gap : 25px;
+    margin-left: 10px;
+
+}
+
+.inputzone{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+
+}
+.sinscrire{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border: none;
+    margin-left: 3px;
+       
+    
+}
+
+
+form{
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+
+.center_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo_footer{
+    width: 90px;
+    margin-right: 10px;
+}
+
+.logo_footer img{
+    width: 100% ;
+}
+
+

@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top img{
+    width: 200px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;   
+    font-size: 1.5em;
+}
+ul a {
+    text-decoration: none;
+}
+
+.reseaux a{
+      font-size: 30px;
+      color: black;
+        
+}
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.baniere img{
+    width: 100%;
+    border: 2px solid;
+}
+
+/****************************************Corp_Contact************************************************/
+
+#contact{
+    background-color: #f9f9fb ;
+    padding: 100px 15;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.corp_contact{
+    background-color: white;
+    max-width: 900px;
+    margin:  0 auto;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10px;
+    box-sizing: border-box;
+    
+    
+    border-radius: 15px;
+    box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title h6{
+    font-size: 1.3em ;
+}
+
+.title h3{
+    font-size: 3em;
+
+}
+#contact .corp_contact form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+
+}
+#contact .corp_contact form input{
+    width: 46%; 
+    
+}
+
+#contact .corp_contact form input:hover,
+#contact .corp_contact form textarea:hover
+{
+    border-bottom:  2px solid rgb(70,130,180) ;
+    
+}
+#contact .corp_contact form input,
+#contact .corp_contact form textarea{
+    margin: 16px 0  ;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e4e4ec;
+    transition: 0.2s;
+
+}
+
+
+#contact .corp_contact form textarea{
+    width: 100%;
+    resize: none;
+    height: 150px;
+    margin-bottom: 40px;
+   
+}
+
+#contact .corp_contact form button{
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color:rgb(70,130,180) ;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 30px;
+    outline:  none;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+
+#contact .corp_contact form button:hover{
+    transform:  translateY(-5px);
+    box-shadow: rgb(214, 214, 214) 0px 10px 40px 0px;
+}
+
+
+
+
+/*************************************Footer*********************************************/
+footer{
+    background-color: rgb(211,211,211);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    
+}
+
+#newsletter{
+
+    display: flex;
+    flex-direction: column; 
+    gap : 25px;
+    margin-left: 10px;
+
+}
+
+.inputzone{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+
+}
+.sinscrire{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border: none;
+    margin-left: 3px;
+       
+    
+}
+
+
+form{
+    display: flex;
+    align-items: flex-end;
+    
+    
+}
+
+.center_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo_footer{
+    width: 90px;
+    margin-right: 10px;
+}
+
+.logo_footer img{
+    width: 100% ;
+}
+
+@media  screen and (max-width:500px) { 
+    #contact .corp_contact form{
+        flex-direction: column;
+        width: 95%;
+    }
+    #contact .corp_contact form input{
+        width: 100%;
+
+    }
+    .title h6{
+        font-size: 0.9em ;
+    }
+    
+    .title h3{
+        font-size: 1.9em;
+    }
+    
+   
+}
